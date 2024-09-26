@@ -27,7 +27,6 @@ The project involves:
 ```plaintext
 .
 ├── app.py
-├── cleaned_data.csv
 ├── kmeans_model.pkl
 ├── tfidf_vectorizer.pkl
 ├── requirements.txt
@@ -42,7 +41,6 @@ The project involves:
 ## Project Structure
 
 - `app.py`: Main Flask application file.
-- `cleaned_data.csv`: Preprocessed dataset containing song features.
 - `kmeans_model.pkl`: Pre-trained KMeans clustering model.
 - `tfidf_vectorizer.pkl`: Vectorizer used for feature extraction from song data.
 - `requirements.txt`: Python dependencies.
@@ -122,8 +120,6 @@ The project involves:
 ## Dataset
 
 The dataset used for training the model is from [this Kaggle project](https://www.kaggle.com/code/vatsalmavani/music-recommendation-system-using-spotify-dataset). It has been cleaned and processed for use in this recommender system.
-
-- `cleaned_data.csv`: Contains preprocessed song data for model training and recommendations.
 
 ## Model Training
 
